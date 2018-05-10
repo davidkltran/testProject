@@ -105,7 +105,6 @@ Type" content="text/html; charset=UTF-8" />
             <div class "col-md-8">
                 <table class="table table-bordered">
                     <tr>
-                        <th>#</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone</th>
@@ -118,7 +117,6 @@ Type" content="text/html; charset=UTF-8" />
                             //breaking point
                             ?>
                                 <tr>
-                                    <td><?php echo $row["id"]; ?></td>
                                     <td><?php echo $row["t_name"]; ?></td>
                                     <td><?php echo $row["t_email"]; ?></td>
                                     <td><b><?php echo $row["t_phone"]; ?></b></td>
