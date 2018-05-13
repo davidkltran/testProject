@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davidkltran/testProject/issues"
   },
-  "homepage": "https://github.com/davidkltran/testProject#readme"
+  "homepage": "https://github.com/davidkltran/testProject#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
