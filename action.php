@@ -4,12 +4,12 @@ include "db.php";
 
 class DataOperation extends Database
 {
-    public function insert_record($table,$fileds){
+    public function insert_record($table,$fields){
         //"INSERT INTO table_name ( ) VALUES ('c_name','c_email','c_phone')";
         $sql = ""; 
         $sql .= "INSERT INTO ".$table;
-        $sql .= " (".implode(",", array_keys($fileds)).") VALUES ";
-        $sql .= "('".implode("','", array_values($fileds))."')";
+        $sql .= " (".implode(",", array_keys($fields)).") VALUES ";
+        $sql .= "('".implode("','", array_values($fields))."')";
         $query = mysqli_query($this->con,$sql);
         if($query){
             return true;
